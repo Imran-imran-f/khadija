@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Siyam Rupali', sans-serif;
+    background: linear-gradient(#ffe6e6, #ffe0b3);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+ nav {
+      background-color: #1a237e;
+      color: #fff;
+      padding: 15px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+	  
+	  
+    }
+    nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+	margin: 10px;
+	  background:red;
+	  border-radius:10px;      
+	padding:8px;
+}
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ff9999;
+    margin-bottom: 20px;
+}
+.poem {
+    font-style: italic;
+    background: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
